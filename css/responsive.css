@@ -1,0 +1,14 @@
+
+@media  all and (max-width:992px) {
+    
+}
+
+@media all and (max-width:767px){
+    /* header area  */
+    .headr-menu ul li a{
+        display: none;
+    }
+    .menu-link{
+        display: block !important;
+    }
+}

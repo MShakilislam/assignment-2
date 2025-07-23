@@ -102,6 +102,7 @@ nav{
     color: #E95A08;
 }
 .banner-images img{
+    display: block;
     width: 100%;
     height: auto;
 }

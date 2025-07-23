@@ -11,4 +11,29 @@
     .menu-link{
         display: block !important;
     }
+    /* banner area css  */
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-images{
+        order: 1;
+    }
+    .banner-text{
+        order: 2;
+    }
+}
+@media all and (max-width:575px){
+    .headr-menu ul li {
+        margin: 0;
+    }
+    /* banner  */
+    .banner-title {
+        font-size: 3rem;
+    }
+    .banner-head{
+        font-size: 3rem;
+    }
+    .banner-text h2 {
+        font-size: 3rem;
+    }
 }

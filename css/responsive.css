@@ -1,6 +1,9 @@
 
 @media  all and (max-width:992px) {
-    
+    /* suscribe area  */
+    .subscribe-area {
+        margin: 75px 100px;
+    }
 }
 
 @media all and (max-width:767px){
@@ -39,7 +42,13 @@
     .single-latest{
         grid-template-columns: repeat(1,2fr);
     }
-    
+    /* subscribe area  */
+    .subscribe-area {
+        margin: 75px 60px;
+    }
+    .subscribe-area h1 {
+        font-size: 2rem;
+    }
 
 }
 
@@ -74,5 +83,12 @@
     .flower-list h1 {
         font-size: 2rem;
     }
-    /* leatest */
+    /* subscribe */
+    .subscribe-area {
+        margin: 75px 30px;
+    }
+    .subscribe-area h1 {
+        font-size: 1.5rem;
+    }
+    
 }

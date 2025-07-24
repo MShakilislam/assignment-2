@@ -25,6 +25,13 @@
     .card-plan{
         grid-template-columns: repeat(2, 4fr);
     }
+    /* flower-plane  */
+    .flower-lover{
+        grid-template-columns: repeat(1,2fr);
+    }
+    .flower-logo{
+        display: none !important;
+    }
 }
 
 
@@ -53,5 +60,9 @@
     }
     .plan-title {
         width: 100%;
+    }
+    /* flowe area  */
+    .flower-list h1 {
+        font-size: 2rem;
     }
 }

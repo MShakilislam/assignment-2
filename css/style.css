@@ -107,7 +107,7 @@ nav{
     height: auto;
 }
   /* ******************************************* */
- /* ************ plane area css 2 ************* */
+ /* ************ plane area css 3 ************* */
 /* ******************************************* */
 
 .plan-title{
@@ -159,4 +159,46 @@ nav{
     font-weight: 500;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  /* ******************************************* */
+ /* ***** flower lover area css 4 ************* */
+/* ******************************************* */
+.flower-lover{
+    padding-top: 40px;
+}
+.flower-lover{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+}
+.single-flower{
+    position: relative;
+}
+.single-flower img{
+    width: 100%;
+    height: auto;
+}
+.flower-logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -75px;
+    top: -85px;
+}
+.flower-logo img{
+    width: 100%;
+    height: auto;
+}
+/* flower-text  */
+.flower-list{
+    padding: 20px;
+}
+.flower-list h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.flower-list ul li{
+    margin: 20px 0;
+    color: #7A7C80;
+    font-size: 19px;
 }

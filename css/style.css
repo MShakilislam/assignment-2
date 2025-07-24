@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -111,7 +110,6 @@ nav{
   /* ******************************************* */
  /* ************ plane area css 3 ************* */
 /* ******************************************* */
-
 .plan-title{
     width: 60%;
     margin: auto;
@@ -218,7 +216,6 @@ nav{
     grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
-
 .latest-left{
     display: grid;
     grid-template-columns: repeat(1,2fr);
@@ -299,7 +296,7 @@ nav{
     cursor: pointer;
 }
   /* ******************************************* */
- /* *********** footer area css 5  ************* */
+ /* *********** footer area css 7  ************ */
 /* ******************************************* */
 .single-footer{
     display: grid;

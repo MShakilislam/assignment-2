@@ -267,7 +267,7 @@ nav{
     font-weight: 400;
 }
   /* ******************************************* */
- /* *********** joine area css 5  ************* */
+ /* *********** joine area css 6  ************* */
 /* ******************************************* */
 .joine-area{
     background: url(../assets/news-letter-bg.png) no-repeat scroll 0 0 / 100% 100%;
@@ -287,7 +287,7 @@ nav{
 .subscribe-area form input[type="email"]{
     width: calc(100% - 120px);
 	background: rgba(240, 245, 248, 0.945);
-	color: #fff;
+	color: #000;
 	border: none;
 	padding: 15px 15px;
 }
@@ -297,4 +297,36 @@ nav{
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
+  /* ******************************************* */
+ /* *********** footer area css 5  ************* */
+/* ******************************************* */
+.single-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.left-footer{
+    padding: 0 15px;
+}
+.left-footer p{
+    font-size: 22px;
+    padding: 14px 0;
+}
+.med-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text ul{
+    list-style: none;
+}
+.footer-text ul li{
+    margin: 15px 0;
+    color: #6B7280;
+}
+.footer-icone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }

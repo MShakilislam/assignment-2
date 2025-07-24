@@ -32,6 +32,15 @@
     .flower-logo{
         display: none !important;
     }
+    /* leatest area  */
+    .latest-header {
+        width: 100%;
+    }
+    .single-latest{
+        grid-template-columns: repeat(1,2fr);
+    }
+    
+
 }
 
 
@@ -65,4 +74,5 @@
     .flower-list h1 {
         font-size: 2rem;
     }
+    /* leatest */
 }

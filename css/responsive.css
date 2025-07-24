@@ -21,6 +21,10 @@
     .banner-text{
         order: 2;
     }
+    /* plan section  */
+    .card-plan{
+        grid-template-columns: repeat(2, 4fr);
+    }
 }
 
 
@@ -42,5 +46,12 @@
     }
     .banner-text h2 {
         font-size: 3rem;
+    }
+    /* plan section  */
+    .card-plan{
+        grid-template-columns: repeat(1, 8fr);
+    }
+    .plan-title {
+        width: 100%;
     }
 }
